@@ -1,3 +1,4 @@
+`#`[Get Started](https://github.com/WillaFan/iwishherokuappcom/edit/main/pages/README.md)  
 
 ### Ways to start your apache dev work at home
 ##### Apache project setup on vm
@@ -20,6 +21,8 @@ Check programs in PATH,
 - Is absolute path  ->yes: -x bash operator to check executable  
 - Check in-path program (which only get program name from cmd) -> directory from $PATH / cmd IS executable?  
 
+Establish trust between vms when performing Clusters  
+
 ##### Manage vm on Cloud Platform
 ` wget -qO- https://[bin_zip_from_central_repositories]` [vs. curl](https://www.linuxfordevices.com/tutorials/linux/wget-vs-curl#:~:text=Differences%20between%20wget%20and%20curl%20%20%20,recursive%20acce%20...%20%201%20more%20rows%20)  
 alternatively, ***apt***  
@@ -35,24 +38,21 @@ https://www.apache.org/dyn/closer.lua/spark/spark-3.2.1/spark-3.2.1-bin-hadoop3.
 https://www.apache.org/dyn/closer.lua/flume/1.9.0/apache-flume-1.9.0-bin.tar.gz  
 
 ###### Installation home directory
+Unzip packages, set environment variable in bashrc, do remember to source it  
 `~/user/local/`  
-
-
-##### Via codebase
-git
-
-##### [Spring Data Module](https://spring.io/projects/spring-data)
-  
-  
-### Start programming
+###### Start programming
 `apt install python3 python3-pip -y`  
 `python3 -m pip install -U flask`  
 ~~***python3***, ***JDK***~~  
 sh script, java -jar app.jar  
 
+##### Via codebase
+git
+
+##### [Spring Data Module](https://spring.io/projects/spring-data)
 
 ### Common apache workflow
-
+#### Databases
 #### Start apache client service
 
 
