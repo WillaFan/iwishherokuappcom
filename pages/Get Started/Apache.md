@@ -21,7 +21,9 @@ Check programs in PATH,
 - Check in-path program (which only get program name from cmd) -> directory from $PATH / cmd IS executable?  
 
 ##### Manage vm on Cloud Platform
-` wget https://` [vs. curl](https://www.linuxfordevices.com/tutorials/linux/wget-vs-curl#:~:text=Differences%20between%20wget%20and%20curl%20%20%20,recursive%20acce%20...%20%201%20more%20rows%20)  
+` wget -qO- https://[bin_zip_from_central_repositories]` [vs. curl](https://www.linuxfordevices.com/tutorials/linux/wget-vs-curl#:~:text=Differences%20between%20wget%20and%20curl%20%20%20,recursive%20acce%20...%20%201%20more%20rows%20)  
+alternatively, ***apt***  
+aka. `sudo apt-get install apache2 -y`  
 ###### Url list
 https://mirrors.xtom.nl/mariadb//mariadb-10.6.7/bintar-linux-systemd-x86_64/mariadb-10.6.7-linux-systemd-x86_64.tar.gz  
 https://www.apache.org/dyn/closer.cgi/hadoop/common/hadoop-3.2.3/hadoop-3.2.3.tar.gz  
@@ -42,7 +44,15 @@ git
 ##### [Spring Data Module](https://spring.io/projects/spring-data)
   
   
+### Start programming
+`apt install python3 python3-pip -y`  
+`python3 -m pip install -U flask`  
+~~***python3***, ***JDK***~~  
+sh script, java -jar app.jar  
+
+
 ### Common apache workflow
---  
+
+#### Start apache client service
 
 
