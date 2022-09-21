@@ -1,5 +1,5 @@
 In honor of Virtual Box go live process.
-# Big data Star-tup
+# Big data Start-up
 
 ##### Enabling a box with with pages, and some engine
 
