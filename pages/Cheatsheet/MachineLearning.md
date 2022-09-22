@@ -1,3 +1,3 @@
 
 
-![Kaggle Competition](https://www.kaggle.com)
+[Kaggle Competition](https://www.kaggle.com)
